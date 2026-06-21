@@ -103,9 +103,6 @@ This project is currently unlicensed. If you want a license, I suggest adding th
 ## Acknowledgements
 
 - Built with Next.js — https://nextjs.org
-- Icons from (name the icon pack if used)
-
 ## Contact
 
 - GitHub: https://github.com/Ankush3104
-- Email: your-email@example.com (optional)

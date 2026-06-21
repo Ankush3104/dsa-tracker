@@ -9,9 +9,7 @@ One-line description: A Next.js + TypeScript app to track and practice data stru
 
 ## Demo
 
-- Live demo: https://https://dsa-tracker-omega-six.vercel.app/ (replace with actual URL)
-- Screenshot:
-
+- Live demo: https://dsa-tracker-omega-six.vercel.app/
 
 ## Features
 

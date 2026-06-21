@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DSA Tracker
 
-## Getting Started
+[![Stars](https://img.shields.io/github/stars/Ankush3104/dsa-tracker?style=flat-square)](https://github.com/Ankush3104/dsa-tracker/stargazers)
+[![License](https://img.shields.io/github/license/Ankush3104/dsa-tracker?style=flat-square)](./LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-97%25-blue?style=flat-square)](#)
+[![Build](https://img.shields.io/badge/build-%F0%9F%9A%80-pipeline?style=flat-square)](#)
 
-First, run the development server:
+One-line description: A Next.js + TypeScript app to track and practice data structures & algorithms.
+
+## Demo
+
+- Live demo: https://your-live-demo-url (replace with actual URL)
+- Screenshot:
+
+![App Screenshot](./public/screenshot.png)
+
+## Features
+
+- Track DSA problems by category (arrays, graphs, trees, dynamic programming, etc.)
+- Record status: to-do, practicing, solved
+- Search, filter, and sort problems
+- Progress dashboard and stats
+- Export/Import progress (planned)
+
+## Tech stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS (or the CSS framework you use)
+- (Optional) Vercel for deployment
+
+## Quick start
+
+1. Clone
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Ankush3104/dsa-tracker.git
+cd dsa-tracker
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# npm
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# or pnpm
+pnpm install
 
-## Learn More
+# or yarn
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Run locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# dev server
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# build
+npm run build
+npm run start
+```
 
-## Deploy on Vercel
+Open http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- App entry: app/page.tsx
+- TypeScript config: tsconfig.json
+- Linting: ESLint (see eslint.config.mjs)
+- Styling: (mention where styles live, e.g., src/styles or tailwind config)
+
+## Usage
+
+- How to add a problem: explain UI or repo path
+- How to mark solved: explain UI
+- How to import/export progress (if implemented)
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repo
+2. Create a feature branch: git checkout -b feat/your-feature
+3. Commit your changes and push: git push origin feat/your-feature
+4. Open a pull request describing your change
+
+See CONTRIBUTING.md for code standards, commit message style, and how to run tests.
+
+## Roadmap
+
+- [ ] Progress analytics dashboard
+- [ ] Problem import from LeetCode/GitHub lists
+- [ ] Mobile layout improvements
+- [ ] Authentication & user sync
+
+## License
+
+This project is currently unlicensed. If you want a license, I suggest adding the MIT license. See LICENSE.
+
+## Maintainers
+
+- Ankush (Ankush3104) — maintainer
+
+## Acknowledgements
+
+- Built with Next.js — https://nextjs.org
+- Icons from (name the icon pack if used)
+
+## Contact
+
+- GitHub: https://github.com/Ankush3104
+- Email: your-email@example.com (optional)
